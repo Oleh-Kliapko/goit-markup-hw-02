@@ -2,9 +2,10 @@
 --head-color: #212121;/*колір заголовків і навігації*/
 --text-color: #757575; /*колір вторинного тексту*/
 --accent-color: #2196F3; /*колір акцентів, частини логотипу, фону кнопок*/
---background-color:#2F303A; /*колір підкладки героя і футера*/
+--background-color:#2F303A; /*головний колір підкладки*/
 --main-light-color:#FFFFFF; /*білий колір*/
 --main-dark-color: #000000; /*чорний колір*/
+--secondary-bgr-color: #F5F4FA; /*другорядний колір підкладки*/
 }
 
 body{
@@ -128,6 +129,9 @@ color: var(--accent-color);
 
 
 /*Our team*/
+.section-team{
+    background: var(--secondary-bgr-color);
+}
 
 .team .title{
     font-weight: 500;
