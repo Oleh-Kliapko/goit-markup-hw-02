@@ -100,6 +100,10 @@ color: var(--accent-color);
 
 /*Section list*/
 
+.hidden {
+    display: none;
+}
+
 /*Features*/
 
 .section-title{
