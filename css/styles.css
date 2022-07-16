@@ -71,7 +71,7 @@ color: var(--accent-color);
 }
 
 .hero-title{
-    color: var(--main-light-color); /*змінити пізніше!!! */
+    color: var(--main-light-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -143,6 +143,48 @@ color: var(--accent-color);
 .team .text {
     color: var(--text-color);
     line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+/*Portfolio Button*/
+
+.filters .button {
+    color: var(--head-color);
+    background-color: var(--secondary-bgr-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.filters .button:hover,
+.filters .button:focus {
+    color: var(--main-light-color);
+    background-color: var(--accent-color);
+}
+
+.filters .current {
+    color: var(--main-light-color);
+    background-color: var(--accent-color);
+}
+
+/*Portfolio our project*/
+
+.projects .title{
+    color: var(--head-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects .text{
+    color: var(--text-color);
+    line-height: 1.88;
     letter-spacing: 0.03em;
 }
 
